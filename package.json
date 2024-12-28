@@ -1,0 +1,33 @@
+{
+  "name": "localiz-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "cli",
+    "template",
+    "!**/node_modules",
+    "!**/build",
+    "!**/.env",
+    "utils"
+  ],
+  "bin": {
+    "create-ordi-app": "./index.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.17 <19",
+    "pnpm": ">=8.6 <9"
+  }
+}
